@@ -1,0 +1,160 @@
+body {
+  margin-top: 130px;
+  padding-bottom: 500px;
+  margin-left: 200px;
+}
+
+.sidebar {
+  background-color: lightblue;
+  position: fixed;
+  top: 80px;
+  left: 0;
+  bottom: 0;
+  width: 160px;
+}
+.header {
+  background-color: white;
+  display: flex;
+  margin-bottom: 50px;
+  margin-top: 0px;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  border-bottom: 1px solid rgb(233, 228, 228);
+}
+.left-section {
+  display: flex;
+  align-items: center;
+  font-family: Roboto;
+  font-size: larger;
+  font-weight: bolder;
+  padding-left: 20px;
+  width: 210px;
+}
+.hamburgermenu-icon {
+  height: 30px;
+  padding-right: 25px;
+}
+
+.middle-section {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  max-width: 600px;
+}
+.search-button {
+  height: 44px;
+  margin-left: -2px;
+  background-color: white;
+  border-style: solid;
+  border-width: thin;
+}
+
+.search-image {
+  cursor: pointer;
+  height: 30px;
+}
+.searchbar {
+  border-width: 1px;
+  border-color: rgb(166, 164, 164);
+  height: 40px;
+  flex: 1;
+  font-size: medium;
+  font-weight: 500;
+  width: 0;
+}
+
+.searchbar::placeholder {
+  font-family: roboto;
+  padding-left: 10px;
+  font-weight: 300;
+}
+
+.mic-button {
+  height: 44px;
+  margin-left: 10px;
+  border-radius: 22px;
+  border: none;
+}
+.mic-image {
+  height: 30px;
+}
+.right-section {
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+.create {
+  padding-right: 10px;
+  height: 30px;
+}
+
+.notif {
+  padding-right: 10px;
+  height: 30px;
+}
+
+.sushant {
+  width: 30px;
+  border-radius: 40px;
+}
+.grid-videopreview {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 10px;
+}
+p {
+  font-family: roboto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.thumbnail-row {
+  margin-bottom: 15px;
+  position: relative;
+  z-index: -1;
+}
+.timer {
+  position: absolute;
+  background-color: black;
+  color: white;
+  right: 15px;
+  bottom: 10px;
+}
+
+.profile-picture {
+  width: 40px;
+  border-radius: 50px;
+}
+
+.video-info {
+  margin-left: 10px;
+}
+.thumbnail {
+  width: 420px;
+  display: block;
+}
+.video-title {
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.channel-name,
+.video-stats {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  margin-bottom: 3px;
+}
+
+.grid-videoinfo {
+  display: grid;
+  grid-template-columns: 50px 200px;
+}
